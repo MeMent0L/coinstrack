@@ -1,0 +1,4 @@
+# Edit the crontab file in /etc/crontab or /etc/cron.d (depends on the system you use - keep the file name unchanged)
+# Add the following line to automatically update the data every hour at half past:
+
+30 * * * * computer_username python /path/to/yourpythonprogram/coin_db_update.py
