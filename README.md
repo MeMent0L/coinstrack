@@ -103,7 +103,7 @@ mysql> select TICKER, PRICE_USD, VOLUME24_BTC, TIME_COMPUTER FROM MARKET_DATA WH
 <br><br>
 <strong>6. NEXT STEPS</strong>
 <br><br>
-Now the data is here, and it would be great to use python to analyse and visualize it. If anyone wants to contribute, you'd be more than welcome!
+Now the data is here, and it would be great to use python to analyze and visualize it. If anyone wants to contribute, you'd be more than welcome!<br>
 Contributions on cleaning the code and/or improving this readme are also warmly welcomed.
 <br>
 <br><br>
