@@ -32,7 +32,7 @@ Put the files coin_db_update.py, database.py and credentials.mysql in the same f
 $ echo -e "\nexport PYTHONPATH=\$PYTHONPATH:/path/to/directory" >> ~/.bashrc
 <br>
 <br><br>
-<strong>3. CREATING THE DATABASE</strong><br>
+<strong>3. CREATING THE DATABASE</strong><br><br>
 Now launch Mysql-
 <br>
 <br>
@@ -49,7 +49,7 @@ mysql> USE coinstrack;<br>
 <br>
 Create the data table in the database-<br>
 
-CREATE TABLE MARKET_DATA(
+mysql> CREATE TABLE MARKET_DATA(
     ID BIGINT NOT NULL AUTO_INCREMENT,
     REMOTE_ID BIGINT,
     POSITION INTEGER,
